@@ -199,13 +199,6 @@ img {
 
 .icon-close-menu {
   color: var(--blue-text-color);
-  justify-content: center;
-  align-items: center;
-  width: 24px;
-  height: 24px;
-  background-color: rgba(231, 233, 252, 0.1);
-  border: 1px solid rgba(46, 47, 66, 0.1);
-  border-radius: 50%;
 }
 
 .mob-nav-item:not(:last-child) {
