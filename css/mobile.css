@@ -9,9 +9,42 @@
     width: 766px;
   }
 }
+/* HERO */
+.hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/image-tab-min.jpg);
+}
 
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
   }
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/image-tab-2x-min.jpg);
+  }
+}
+.main-title {
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  margin-bottom: 36px;
+}
+/* HERO */
+
+/* BACKDROP */
+
+.modal {
+  max-width: 408px;
+}
+/* BACKDROP */
